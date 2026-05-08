@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 export default function Features() {
   return (
-    <section className="max-w-7xl mx-auto pt-24 px-4 pb-24 bg-[#0a0a0c]" id="services">
-      <div className="md:p-12 relative overflow-hidden rounded-[40px] p-6 border border-white/20 bg-gradient-to-br from-white/[0.08] to-white/[0.01] backdrop-blur-[60px] shadow-[0_32px_64px_rgba(0,0,0,0.4),inset_0_0_0_1px_rgba(255,255,255,0.1),inset_0_24px_48px_rgba(255,255,255,0.05)]">
+    <section className="max-w-7xl mx-auto pt-32 px-4 pb-32 bg-[#0a0a0c]" id="services">
+      <div className="md:p-16 lg:p-20 relative overflow-hidden rounded-[40px] p-8 border border-white/20 bg-gradient-to-br from-white/[0.08] to-white/[0.01] backdrop-blur-[60px] shadow-[0_32px_64px_rgba(0,0,0,0.4),inset_0_0_0_1px_rgba(255,255,255,0.1),inset_0_24px_48px_rgba(255,255,255,0.05)]">
         
         {/* Animated Water/Liquid Blobs */}
         <motion.div
